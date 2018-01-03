@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Featured: Post an Ad</title>
+        <link href="css/styles.css" type = "text/css" rel = "stylesheet"/>
+    </head>
+    <body>
+        <div id="navbar">
+            <a id=navlink href="index.html">Home</a>
+            <a id=navlink>Login</a>
+            <a id=navlink>Find a Service</a>
+        </div>
+        <br>
+        <br>
+        <h1 id="title1">Please Fill Out The Following Form to Post an Ad</h1> 
+        <p>Please choose a country:</p>
+        <select id = "dropdown">
+            <option value="Canada" selected = "selected">Canada</option>
+            <option value="USA">USA</option>
+        </select>
+        <p>Please enter the abbreviation for your Province or State (i.e. NB, NS):</p>
+        <input id= "provName" type="text"/>
+        <p>Please select the type of ad you wish to post</p>
+        <select id = "dropdown">
+            <option value="buy">Service Required</option>
+            <option value="sell">Service Offered</option>
+        </select>
+        <p>Please enter the text for your ad:</p>
+        <textarea id="adForm" name="adForm"></textarea>
+        <br>
+        <br>
+        <input id="subButton" type= "submit" name = "submitAd" value = "Post Ad"/>
+    </body>
+</html>
