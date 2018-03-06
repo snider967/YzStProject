@@ -18,8 +18,7 @@ h2{
     position: fixed;
     top: 0px;
     left: 0px;
-    padding: 10px;
-    margin: 0px;
+    padding: 4px;
     width: 100%;
     background-color: black;
     z-index: 1;
@@ -44,21 +43,9 @@ h2{
     font-size: 17px;
 }
 
-#searchbar {
-    display: inline-block;
-    width: 288px !important;
- }
- 
-#searchbutton {
-    float: left;
-    margin-top: 5px
- }
-
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
+    float: left;
+    color: aliceblue;
 }
 
 #navlink{
@@ -68,6 +55,7 @@ h2{
     background-color: darkgoldenrod;
     text-align: center; 
     margin-left: 3%;
+    margin-top: 0.5%;
 }
 
 #navlink:hover {
@@ -80,40 +68,7 @@ h2{
     color: darkgoldenrod;
 }
 
-#navlink:link {
-    color: black;
-    text-decoration: none;
-}
-
 #navlink:visited {
-    color: black;
-}
-
-#navlink1{
-    float: right;
-    width: 22%;
-    padding: 3px;
-    margin-right: 5%;
-    background-color: darkgoldenrod;
-    text-align: center;    
-}
-
-#navlink1:hover {
-    background-color: grey;
-    color: azure;
-}
-
-#navlink1:active {
-    background-color: dimgrey;
-    color: darkgoldenrod;
-}
-
-#navlink1:link {
-    color: black;
-    text-decoration: none;
-}
-
-#navlink1:visited {
     color: black;
 }
 
@@ -148,7 +103,7 @@ h2{
 
 .tagline{
     background-color: black;
-    text-align: center;
+    float: left;
     font-size: 20px;
     color: darkgoldenrod;
     text-shadow: 2px 2px 2px dimgrey;
