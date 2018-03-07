@@ -33,7 +33,7 @@ h2{
     left: 0px;
     padding: 4px;
     width: 100%;
-    background-color: black;
+    background-color: #3498db;
     z-index: 1;
 }
 
@@ -46,20 +46,19 @@ h2{
     float: left;
     width: 22%;
     padding: 3px;
-    background-color: darkgoldenrod;
+    background-color: #f1c40f;
     text-align: center; 
     margin-left: 3%;
     margin-top: 0.5%;
 }
 
 #navlink:hover {
-    background-color: grey;
-    color: azure;
+    background-color: #f39c12;
 }
 
 #navlink:active {
-    background-color: dimgrey;
-    color: darkgoldenrod;
+    background-color: #2980b9;
+    color: #f1c40f;
 }
 
 #navlink:visited {
